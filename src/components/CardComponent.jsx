@@ -43,11 +43,11 @@ const CardComponent = ({
             }`}
           />
         </div>
-        <div className="absolute sm:w-36 max-sm:w-20 -bottom-1 mt-2 sm:right-6 max-sm:right-2 rounded-lg bg-white flex max-sm:gap-2 sm:justify-between">
+        <div className="absolute sm:w-36 max-sm:w-20 -bottom-1 mt-2 sm:right-6 max-sm:right-2 rounded-lg bg-white flex sm:justify-between">
           <img
             src={timerImg}
             alt=""
-            className="sm:w-4 sm:h-4 max-sm:h-2 max-sm:w-2 ml-2 mt-1 mr-2"
+            className="sm:w-4 sm:h-4 max-sm:h-2 max-sm:w-2 ml-2 mt-1 sm:mr-2"
           />
           <p className="sm:text-xs max-sm:text-[6px] font-bold mr-4 my-1 hidden sm:block">
             {stay}
