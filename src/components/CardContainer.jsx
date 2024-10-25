@@ -18,11 +18,11 @@ const CardContainer = () => {
     });
   
     if (filteredPlaces.length === 0) {
-      setFilterPlaces(cardDetails); // Show all places if no results found
+      setFilterPlaces(cardDetails);
       setError("No results found");
     } else {
-      setFilterPlaces(filteredPlaces); // Show filtered results
-      setError(""); // Clear any previous error
+      setFilterPlaces(filteredPlaces); 
+      setError(""); 
     }
   
   };
@@ -42,6 +42,7 @@ const CardContainer = () => {
             imageUrl={item.imageUrl}
             price={item.price}
             stay={item.stay}
+            stayInSmallScreen={item.stayInSmallScreen}
             pickup={item.pickup}
           />
         ))}
